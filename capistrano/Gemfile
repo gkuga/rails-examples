@@ -51,6 +51,8 @@ end
 
 group :development do
   gem "capistrano", "~> 3.17", require: false
+  gem "ed25519"
+  gem "bcrypt_pbkdf"
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
