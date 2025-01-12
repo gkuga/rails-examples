@@ -1,3 +1,5 @@
+@use "../mixins" as *;
+
 .container {
   width: 100%;
   padding-right: var(--space-xs);
