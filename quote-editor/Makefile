@@ -20,7 +20,7 @@ dev:
 
 .PHONY: test
 test:
-	bin/rails test:system
+	bin/rails test:all
 
 .PHONY: run-redis
 run-redis:
