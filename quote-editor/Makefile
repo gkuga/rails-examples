@@ -6,6 +6,10 @@ initdb:
 startdb:
 	pg_ctl -D data -l data/logfile start
 
+.PHONY: stopdb
+stopdb:
+	pg_ctl -D data stop
+
 .PHONY: statusdb
 statusdb:
 	pg_ctl -D data status
